@@ -5,7 +5,7 @@ import org.apache.commons.lang3.RandomStringUtils;
 import java.util.Random;
 
 public class JavaUtillRandom {
-    /*DurgeshRestAssured*/
+
     //Method for Take dynamic data & pass in PostAPiTest
     /**
      * Dynamic id:-
