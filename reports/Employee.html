@@ -1,0 +1,5316 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>PerformanceEmployee-Automation</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Feb 15, 2024 12:46:51 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Goal List Api is working fine</p>
+            <p class="text-sm">
+              <span>12:46:51 pm</span> / <span>00:00:02:281</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Goal List Api is working fine</h5>
+<span class='badge badge-success'>02.15.2024 12:46:51 pm</span>
+<span class='badge badge-danger'>02.15.2024 12:46:54 pm</span>
+<span class='badge badge-default'>00:00:02:281</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:53 pm</td>
+        <td>
+          Response = {
+    "responseData": [
+        {
+            "goalId": "qyx6s1L2a3S4hRpRHhqlkawqyCRL6Ae1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Objective",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "c2kc5IwUfhs1L2a3S4h6OQAJeSwXbge1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "SaaS Business: Improve the margin",
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 100,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "kScfHJPqIHMCvR4BpqzuDQe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Goal 1 for Automation",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "c2kc5IwUfhs1L2a3S4h6OQAJeSwXbge1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "SaaS Business: Improve the margin",
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 100,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "GzwmwFhlQcBNM3jdhUw9uQe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Goal 1 for Automation",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "c2kc5IwUfhs1L2a3S4h6OQAJeSwXbge1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "SaaS Business: Improve the margin",
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 100,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "oV4QFFp1L2u3ScUc0DpAyJqHnVqge1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Goal 1 for Automation",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "c2kc5IwUfhs1L2a3S4h6OQAJeSwXbge1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "SaaS Business: Improve the margin",
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 100,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "Wd4izOUwMhuVss1L2a3S4hEWZ26ekAe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Goal 1 for Automation",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "c2kc5IwUfhs1L2a3S4h6OQAJeSwXbge1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "SaaS Business: Improve the margin",
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 100,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "BEJfEZFOrJzPOwzr6BbhAQe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Goal 1 for Automation",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "c2kc5IwUfhs1L2a3S4h6OQAJeSwXbge1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "SaaS Business: Improve the margin",
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 100,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "frfUdbbaprZnmp1L2u3Syq4E6pjAe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Goal 1 for Automation",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "c2kc5IwUfhs1L2a3S4h6OQAJeSwXbge1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "SaaS Business: Improve the margin",
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 100,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "Cwr5QSZ8dw7IiANrxmj0Ige1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Goal 1 for Automation",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "c2kc5IwUfhs1L2a3S4h6OQAJeSwXbge1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "SaaS Business: Improve the margin",
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 100,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "vjzvB3qZoXdcs1L2a3S4hcNoPGFOwwe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Goal 1 for Automation",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "c2kc5IwUfhs1L2a3S4h6OQAJeSwXbge1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "SaaS Business: Improve the margin",
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 100,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "e4cdAZQ1Y9vsznJp1L2u3Svk6rawe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Goal 1 for Automation",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "c2kc5IwUfhs1L2a3S4h6OQAJeSwXbge1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "SaaS Business: Improve the margin",
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 100,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "trEJeX0s1L2a3S4h1nWcdxUduNA5LQe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Goal 1 for Automation",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "c2kc5IwUfhs1L2a3S4h6OQAJeSwXbge1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "SaaS Business: Improve the margin",
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 100,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "aWfKuBKiex7PH4vYR1Lk6Qe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Goal 1 for Automation",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "c2kc5IwUfhs1L2a3S4h6OQAJeSwXbge1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "SaaS Business: Improve the margin",
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 100,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "mTINGP5fRuJTgS3wsptZ2Ae1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Goal 1 for Automation",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "c2kc5IwUfhs1L2a3S4h6OQAJeSwXbge1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "SaaS Business: Improve the margin",
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 100,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "C0uje8glcRFhBEIc9fy8XAe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Goal 1 for Automation",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "c2kc5IwUfhs1L2a3S4h6OQAJeSwXbge1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "SaaS Business: Improve the margin",
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 100,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "yGMTmFDp1L2u3Sdd1jp1L2u3S8uVwOEW3we1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Goal 1 for Automation",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "c2kc5IwUfhs1L2a3S4h6OQAJeSwXbge1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "SaaS Business: Improve the margin",
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 100,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "QqIT453ifpJZokgDx7sBaQe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Goal 1 for Automation",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "c2kc5IwUfhs1L2a3S4h6OQAJeSwXbge1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "SaaS Business: Improve the margin",
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 100,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "v6EBAEtOBCbp1L2u3SseH3XwS6uge1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Goal 1 for Automation",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "c2kc5IwUfhs1L2a3S4h6OQAJeSwXbge1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "SaaS Business: Improve the margin",
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 100,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "hyKkRj6FXMBEpypblM8nFAe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Goal 1 for Automation",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "c2kc5IwUfhs1L2a3S4h6OQAJeSwXbge1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "SaaS Business: Improve the margin",
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 100,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "19jtLft7NEXd5CVWx7HCwge1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Goal 1 for Automation",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "c2kc5IwUfhs1L2a3S4h6OQAJeSwXbge1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "SaaS Business: Improve the margin",
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 100,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "Qds1L2a3S4hIje2fDqGCYb5kI3Ggs1L2a3S4hQe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Goal 1 for Automation",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "c2kc5IwUfhs1L2a3S4h6OQAJeSwXbge1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "SaaS Business: Improve the margin",
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 100,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "Osuk9iN2F9lb1I9FjcegZQe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Goal 1 for Automation",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "c2kc5IwUfhs1L2a3S4h6OQAJeSwXbge1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "SaaS Business: Improve the margin",
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 100,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "Dws1L2a3S4hr5b4lU24pMQWDlwp1L2u3SJ3Ae1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Goal 1 for Automation",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "c2kc5IwUfhs1L2a3S4h6OQAJeSwXbge1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "SaaS Business: Improve the margin",
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 100,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "p1L2u3SoIrLJu0KCCUXlqciakmGge1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Goal 1 for Automation",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "c2kc5IwUfhs1L2a3S4h6OQAJeSwXbge1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "SaaS Business: Improve the margin",
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 100,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "xJjewMSnt49ZnKcv6RUBNAe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Goal 1 for Automation",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "c2kc5IwUfhs1L2a3S4h6OQAJeSwXbge1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "SaaS Business: Improve the margin",
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 100,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "KEUc7QDeaO1THxqfeXl3PQe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Goal 1 for Automation",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "c2kc5IwUfhs1L2a3S4h6OQAJeSwXbge1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "SaaS Business: Improve the margin",
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 100,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "kAsaBBHqdUwT6G6CsrMu5we1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Goal 1 for Automation",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "c2kc5IwUfhs1L2a3S4h6OQAJeSwXbge1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "SaaS Business: Improve the margin",
+            "status": "WAITING_FOR_ACCEPTANCE",
+            "rejectDesc": null,
+            "weightage": 100,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "XMjdYKBPkrhDwQyFFQ8zAge1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Objective",
+            "startDate": "01 Feb 2024",
+            "endDate": "29 Feb 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "rgG7L2Uvj9JNqAPiixUCWAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "SaaS Business: Customer Happiness",
+            "status": "WAITING_FOR_APPROVAL",
+            "rejectDesc": null,
+            "weightage": 5.88,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "Tsa3NThLpKZZR2jjOqM6fge1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Goal",
+            "startDate": "01 Feb 2024",
+            "endDate": "29 Feb 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "rgG7L2Uvj9JNqAPiixUCWAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "SaaS Business: Customer Happiness",
+            "status": "WAITING_FOR_APPROVAL",
+            "rejectDesc": null,
+            "weightage": 5.88,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "R2JNchN1jPnhzPLYAT0nvge1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Objective- Feb",
+            "startDate": "01 Feb 2024",
+            "endDate": "29 Feb 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "WAITING_FOR_APPROVAL",
+            "rejectDesc": null,
+            "weightage": 5.88,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "ps1L2a3S4hrDXpx3H7KfRwHITsqQiAe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "test",
+            "startDate": "01 Jan 2024",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "WAITING_FOR_APPROVAL",
+            "rejectDesc": null,
+            "weightage": 5.88,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "u2tPP97NuiMObK5dTYaIVAe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "test",
+            "startDate": "01 Jan 2024",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "WAITING_FOR_APPROVAL",
+            "rejectDesc": null,
+            "weightage": 5.88,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "jDygEyGGhUgk9BGx6zaH9ge1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Test",
+            "startDate": "01 Jan 2024",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "WAITING_FOR_APPROVAL",
+            "rejectDesc": null,
+            "weightage": 5.88,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "ITCdKOcPs1L2a3S4hUpIss1L2a3S4hg9nay7nge1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "test",
+            "startDate": "01 Jan 2024",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "WAITING_FOR_APPROVAL",
+            "rejectDesc": null,
+            "weightage": 5.88,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "oS0IycnUMWJ7cITRuCfmHQe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Obj",
+            "startDate": "01 Jan 2024",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "WAITING_FOR_APPROVAL",
+            "rejectDesc": null,
+            "weightage": 5.88,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "qofcikRGQEq1UrDOy5jSfge1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "test",
+            "startDate": "01 Jan 2024",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "WAITING_FOR_APPROVAL",
+            "rejectDesc": null,
+            "weightage": 5.88,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "un5kZIMS6Fpzp1L2u3SqrPPghfige1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Objective",
+            "startDate": "01 Jan 2024",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "WAITING_FOR_APPROVAL",
+            "rejectDesc": null,
+            "weightage": 5.88,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "hguAvjyToJptgfZsR9XQNwe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "test",
+            "startDate": "01 Jan 2024",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "WAITING_FOR_APPROVAL",
+            "rejectDesc": null,
+            "weightage": 5.88,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "LVG9A9rtiJSgYlLLh9Mp1L2u3S1Ae1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Objective with tpo",
+            "startDate": "01 Jan 2024",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "WAITING_FOR_APPROVAL",
+            "rejectDesc": null,
+            "weightage": 5.92,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "lqcNinOoWGS1xPhPXGfDOQe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Objective",
+            "startDate": "06 Feb 2024",
+            "endDate": "08 Feb 2024",
+            "progress": 50,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "CLOSING_INITIATED",
+            "rejectDesc": null,
+            "weightage": 5.88,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "KEam6po3n18qr7E9s1L2a3S4hsDBawe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Objective 1",
+            "startDate": "01 Feb 2024",
+            "endDate": "29 Feb 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "rgG7L2Uvj9JNqAPiixUCWAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "SaaS Business: Customer Happiness",
+            "status": "CLOSING_INITIATED",
+            "rejectDesc": null,
+            "weightage": 5.88,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "TK6m2jW0SBF0F2CJD43cXge1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "test",
+            "startDate": "01 Jan 2024",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "CLOSING_INITIATED",
+            "rejectDesc": null,
+            "weightage": 5.88,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "KwvTRpHUitsjzhXIrq4MIwe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Product Stability AMJ-2023",
+            "startDate": "01 Apr 2023",
+            "endDate": "30 Jun 2023",
+            "progress": 74,
+            "color": "ORANGE",
+            "companyObjectiveId": "IftUKlD6cm802qfmDAivnwe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "People: Talent capability",
+            "status": "CLOSED",
+            "rejectDesc": null,
+            "weightage": 0,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "vpA8n1usSjQkJK2VTMwxIwe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Most profitable SaaS Product and an obvious choice for Customers",
+            "startDate": "01 Apr 2023",
+            "endDate": "30 Jun 2023",
+            "progress": 80,
+            "color": "ORANGE",
+            "companyObjectiveId": "IftUKlD6cm802qfmDAivnwe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "People: Talent capability",
+            "status": "CLOSED",
+            "rejectDesc": null,
+            "weightage": 0,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "PT7SZdIQp1L2u3SbiEwp3Uu7Klp1L2u3SQe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Enhance operational efficiency and customer satisfaction in JAS",
+            "startDate": "01 Jul 2023",
+            "endDate": "30 Sep 2023",
+            "progress": 92,
+            "color": "GREEN",
+            "companyObjectiveId": "rgG7L2Uvj9JNqAPiixUCWAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "SaaS Business: Customer Happiness",
+            "status": "CLOSED",
+            "rejectDesc": null,
+            "weightage": 0,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "zJ9nIF8PRgOZ2aKZKqd4Jge1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Enahance Stability (Tech Goodness)",
+            "startDate": "01 Jul 2023",
+            "endDate": "30 Sep 2023",
+            "progress": 85,
+            "color": "ORANGE",
+            "companyObjectiveId": "6bgKsAGjKbvv4MS6QMWLWge1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "SaaS Product: Technical Stability",
+            "status": "CLOSED",
+            "rejectDesc": null,
+            "weightage": 0,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "zge6p1L2u3Sq9Jxw5vMpbkkJfsPge1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Enhance operational efficiency and Critical Customer Asks",
+            "startDate": "01 Oct 2023",
+            "endDate": "31 Dec 2023",
+            "progress": 90,
+            "color": "GREEN",
+            "companyObjectiveId": "rgG7L2Uvj9JNqAPiixUCWAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "SaaS Business: Customer Happiness",
+            "status": "CLOSED",
+            "rejectDesc": null,
+            "weightage": 5.88,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "FiS6sLUBrBpgMz1Ce2eNgQe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Driving Automation, Metrics and Product Optimizations",
+            "startDate": "01 Oct 2023",
+            "endDate": "31 Dec 2023",
+            "progress": 58,
+            "color": "RED",
+            "companyObjectiveId": "6bgKsAGjKbvv4MS6QMWLWge1Q2u3A4le1Q2u3A4l",
+            "companyObjective": "SaaS Product: Technical Stability",
+            "status": "CLOSED",
+            "rejectDesc": null,
+            "weightage": 5.88,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "goalId": "ddMhDRLHseGjXJN3LPO1Ige1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Objective with tpo",
+            "startDate": "06 Feb 2024",
+            "endDate": "08 Feb 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "CLOSED",
+            "rejectDesc": null,
+            "weightage": 5.92,
+            "autoRatingLabel": "--",
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        }
+    ],
+    "message": {
+        "code": "EC200",
+        "message": "Request Successful",
+        "description": "Request Successful"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:53 pm</td>
+        <td>
+          Status Code = 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: qyx6s1L2a3S4hRpRHhqlkawqyCRL6Ae1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: kScfHJPqIHMCvR4BpqzuDQe1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: GzwmwFhlQcBNM3jdhUw9uQe1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: oV4QFFp1L2u3ScUc0DpAyJqHnVqge1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: Wd4izOUwMhuVss1L2a3S4hEWZ26ekAe1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: BEJfEZFOrJzPOwzr6BbhAQe1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: frfUdbbaprZnmp1L2u3Syq4E6pjAe1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: Cwr5QSZ8dw7IiANrxmj0Ige1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: vjzvB3qZoXdcs1L2a3S4hcNoPGFOwwe1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: e4cdAZQ1Y9vsznJp1L2u3Svk6rawe1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: trEJeX0s1L2a3S4h1nWcdxUduNA5LQe1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: aWfKuBKiex7PH4vYR1Lk6Qe1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: mTINGP5fRuJTgS3wsptZ2Ae1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: C0uje8glcRFhBEIc9fy8XAe1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: yGMTmFDp1L2u3Sdd1jp1L2u3S8uVwOEW3we1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: QqIT453ifpJZokgDx7sBaQe1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: v6EBAEtOBCbp1L2u3SseH3XwS6uge1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: hyKkRj6FXMBEpypblM8nFAe1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: 19jtLft7NEXd5CVWx7HCwge1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: Qds1L2a3S4hIje2fDqGCYb5kI3Ggs1L2a3S4hQe1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: Osuk9iN2F9lb1I9FjcegZQe1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: Dws1L2a3S4hr5b4lU24pMQWDlwp1L2u3SJ3Ae1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: p1L2u3SoIrLJu0KCCUXlqciakmGge1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: xJjewMSnt49ZnKcv6RUBNAe1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: KEUc7QDeaO1THxqfeXl3PQe1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: kAsaBBHqdUwT6G6CsrMu5we1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: XMjdYKBPkrhDwQyFFQ8zAge1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: Tsa3NThLpKZZR2jjOqM6fge1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: R2JNchN1jPnhzPLYAT0nvge1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: ps1L2a3S4hrDXpx3H7KfRwHITsqQiAe1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: u2tPP97NuiMObK5dTYaIVAe1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: jDygEyGGhUgk9BGx6zaH9ge1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: ITCdKOcPs1L2a3S4hUpIss1L2a3S4hg9nay7nge1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: oS0IycnUMWJ7cITRuCfmHQe1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: qofcikRGQEq1UrDOy5jSfge1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: un5kZIMS6Fpzp1L2u3SqrPPghfige1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: hguAvjyToJptgfZsR9XQNwe1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: LVG9A9rtiJSgYlLLh9Mp1L2u3S1Ae1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: lqcNinOoWGS1xPhPXGfDOQe1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: KEam6po3n18qr7E9s1L2a3S4hsDBawe1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: TK6m2jW0SBF0F2CJD43cXge1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: KwvTRpHUitsjzhXIrq4MIwe1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: vpA8n1usSjQkJK2VTMwxIwe1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: PT7SZdIQp1L2u3SbiEwp3Uu7Klp1L2u3SQe1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: zJ9nIF8PRgOZ2aKZKqd4Jge1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: zge6p1L2u3Sq9Jxw5vMpbkkJfsPge1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: FiS6sLUBrBpgMz1Ce2eNgQe1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal ID: ddMhDRLHseGjXJN3LPO1Ige1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Goal is created Successfully</p>
+            <p class="text-sm">
+              <span>12:46:54 pm</span> / <span>00:00:00:350</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Goal is created Successfully</h5>
+<span class='badge badge-success'>02.15.2024 12:46:54 pm</span>
+<span class='badge badge-danger'>02.15.2024 12:46:54 pm</span>
+<span class='badge badge-default'>00:00:00:350</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Response = {
+    "responseData": {
+        "goalId": "4iK7a5EgjPVsQgZuyn48YQe1Q2u3A4le1Q2u3A4l"
+    },
+    "message": {
+        "code": "EC200",
+        "message": "Goal and Milestones Created Successfully",
+        "description": "Request Successful"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Status Code = 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Validation Passed: Status code is 200 and response contains 'SUCCESS'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:46:54 pm</td>
+        <td>
+          Goal Id: 4iK7a5EgjPVsQgZuyn48YQe1Q2u3A4le1Q2u3A4l
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Goal Sent for Approval API Test</p>
+            <p class="text-sm">
+              <span>12:46:54 pm</span> / <span>00:00:00:360</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Goal Sent for Approval API Test</h5>
+<span class='badge badge-success'>02.15.2024 12:46:54 pm</span>
+<span class='badge badge-danger'>02.15.2024 12:46:55 pm</span>
+<span class='badge badge-default'>00:00:00:360</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:55 pm</td>
+        <td>
+          Response = {
+    "responseData": null,
+    "message": {
+        "code": "EC201",
+        "message": "Something Went Wrong",
+        "description": "BAD REQUEST"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:55 pm</td>
+        <td>
+          Status Code = 200
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">IDP List Api Test</p>
+            <p class="text-sm">
+              <span>12:46:55 pm</span> / <span>00:00:00:440</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">IDP List Api Test</h5>
+<span class='badge badge-success'>02.15.2024 12:46:55 pm</span>
+<span class='badge badge-danger'>02.15.2024 12:46:55 pm</span>
+<span class='badge badge-default'>00:00:00:440</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:55 pm</td>
+        <td>
+          Response = {
+    "responseData": [
+        {
+            "idpId": "cv8h8egfTP9Lf1l1CmCZ2we1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "IDP",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "AZx2TE7LKUIAp5d7nM27gQe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "IDP",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "c2bDZnkdk97sqkQkz9AdZge1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "IDP",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "NdLQp1L2u3SA6NEUwDfXVstxbf6ge1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "IDP",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "MJXta79RexsyjV5TGTnYp1L2u3SQe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "IDP",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "hN7FcUIGSlYgtVdQqjYGhAe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "IDP",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "srCknmoOssUOBstkRs1L2a3S4h5Hxge1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "IDP",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "D3QO2KL3scOYxUrVgs1L2a3S4hpr0ge1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "IDP",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "bFXBc97yfhYVoBnx43ou4Ae1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "IDP",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "WgqRDiQ6hdntUfdy7M8odge1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "IDP",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "ASh749eJmOWNELPVfdOTsAe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "IDP",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "axguKhZ7FQYs1L2a3S4hMUEzrvmIbge1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "IDP",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "GQts1L2a3S4h7zIxT6MJp1L2u3SnHLOAVL9Ae1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "IDP",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "PjWfGRwFs1L2a3S4hI6fWisQB4j2gAe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "IDP",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "9ISWa5fs9nz2BI4qs1L2a3S4hmX6HAe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "IDP",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "oPvlDfEReKHIabFOVSiOCge1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "IDP",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "hNtPaDJMiUg1Mp1L2u3Slp1L2u3SFbFZQwe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "IDP",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "JY3kmfFCTaieCWI1GNLOIge1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "IDP",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "idIYecxAeVws3mL6j2ZWYge1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "IDP",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "HiJrdMXzpNgvSF5rp1L2u3SDIuTAe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "IDP",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "DEPP03zNfe4LYbSNn3ywnge1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "IDP",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "pjidob3SXNEJLuJQp1L2u3SnuDyge1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "IDP",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "WlcsbGPlD2kAWfJZcujpZwe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "IDP",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "9XWCJLF4pfcOefITykRekge1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "IDP",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "WSWXcUidD2mihcPju7l01Qe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "IDP",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "954TJvKz6NSW3geuUSWFOge1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "IDP",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "DRAFT",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "plw4Fwy7Iwp1L2u3SS7e41jTXtKQe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "IDP",
+            "startDate": "01 Apr 2023",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "WAITING_FOR_ACCEPTANCE",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "BLJ1qzevrWikWa0A2Tmeewe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "IDP",
+            "startDate": "01 Feb 2024",
+            "endDate": "29 Feb 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "WAITING_FOR_APPROVAL",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "uEB7KGZ9TXCGZYOoYAquAQe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "IDP",
+            "startDate": "01 Feb 2024",
+            "endDate": "29 Feb 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "WAITING_FOR_APPROVAL",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "JsoIh1s1L2a3S4hIg3PAheehidVMLwe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "test",
+            "startDate": "01 Jan 2024",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "WAITING_FOR_APPROVAL",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "mhtWBRHs1L2a3S4hp1L2u3SGCoDcn3XRBRGge1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "test",
+            "startDate": "01 Jan 2024",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "WAITING_FOR_APPROVAL",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "dYZG2nDlUozUoTHq38hx6Qe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "test",
+            "startDate": "01 Jan 2024",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "WAITING_FOR_APPROVAL",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "a9k8vk4Y0s1L2a3S4hkOVwlh3TJnwge1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "learning testing",
+            "startDate": "01 Feb 2024",
+            "endDate": "29 Feb 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "IN_PROGRESS",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "gfKdo5aWaFOOl4iS2gPEmAe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "test",
+            "startDate": "01 Jan 2024",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "IN_PROGRESS",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "sz6mDY6nme0js1L2a3S4hngxsjODwQe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "test",
+            "startDate": "01 Jan 2024",
+            "endDate": "31 Mar 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "IN_PROGRESS",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "RAu8hp1L2u3S95ebBlO987GOnBoge1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Learning Journey - Senior Engineering Manager",
+            "startDate": "07 Feb 2024",
+            "endDate": "07 Feb 2025",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "IN_PROGRESS",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "pjkZkgYveMykWNEs1L2a3S4hTOqH9Ae1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Learning Journey - Senior Engineering Manager",
+            "startDate": "07 Feb 2024",
+            "endDate": "07 Feb 2025",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "IN_PROGRESS",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "YVBarAXK8feaHZxxgTnp1L2u3Shge1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Learning Journey - Senior Engineering Manager",
+            "startDate": "07 Feb 2024",
+            "endDate": "07 Feb 2025",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "IN_PROGRESS",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "ZvQpsJ3Np1L2u3SJ0VZAZxDWHfLwe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Learning Journey - Senior Engineering Manager",
+            "startDate": "07 Feb 2024",
+            "endDate": "07 Feb 2025",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "IN_PROGRESS",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "jqfdjjStGc7zxKVy8WjSPwe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Learning Journey - Associate Vice President - Engineering",
+            "startDate": "07 Feb 2024",
+            "endDate": "07 Feb 2025",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "IN_PROGRESS",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        },
+        {
+            "idpId": "jGJWl5MPfgrvHi46Wipo2Ae1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "Learning Journey - Associate Vice President - Engineering",
+            "startDate": "07 Feb 2024",
+            "endDate": "07 Feb 2025",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "IN_PROGRESS",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        }
+    ],
+    "message": {
+        "code": "EC200",
+        "message": "Request Successful",
+        "description": "Request Successful"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:55 pm</td>
+        <td>
+          Status Code = 200
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Create IDP and Activity Api Test</p>
+            <p class="text-sm">
+              <span>12:46:55 pm</span> / <span>00:00:00:346</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Create IDP and Activity Api Test</h5>
+<span class='badge badge-success'>02.15.2024 12:46:55 pm</span>
+<span class='badge badge-danger'>02.15.2024 12:46:56 pm</span>
+<span class='badge badge-default'>00:00:00:346</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:56 pm</td>
+        <td>
+          Response = {
+    "responseData": {
+        "goalId": "ws1L2a3S4hg9iDTqzbD4NDTaLCcEGwe1Q2u3A4le1Q2u3A4l"
+    },
+    "message": {
+        "code": "EC200",
+        "message": "IDP and Activity Created Successfully",
+        "description": "Request Successful"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:56 pm</td>
+        <td>
+          Status Code = 200
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">PIP List is Working Fine</p>
+            <p class="text-sm">
+              <span>12:46:56 pm</span> / <span>00:00:00:299</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">PIP List is Working Fine</h5>
+<span class='badge badge-success'>02.15.2024 12:46:56 pm</span>
+<span class='badge badge-danger'>02.15.2024 12:46:56 pm</span>
+<span class='badge badge-default'>00:00:00:299</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:56 pm</td>
+        <td>
+          Response = {
+    "responseData": [
+        {
+            "pipId": "g5Ul6h6WLLCMTJaWPn4oJQe1Q2u3A4le1Q2u3A4l",
+            "ownerId": "1g2Ls1L2a3S4hvBEJRZ61gp1L2u3SAna6hkge1Q2u3A4le1Q2u3A4l",
+            "name": "PIP",
+            "startDate": "01 Feb 2024",
+            "endDate": "29 Feb 2024",
+            "progress": 0,
+            "color": "RED",
+            "companyObjectiveId": "eUiadkTUoIVU8bUsObqwDAe1Q2u3A4le1Q2u3A4l",
+            "companyObjective": null,
+            "status": "IN_PROGRESS",
+            "rejectDesc": null,
+            "weightage": 0,
+            "deleteEnabled": true,
+            "editEnabled": true,
+            "lockedGoal": false
+        }
+    ],
+    "message": {
+        "code": "EC200",
+        "message": "Request Successful",
+        "description": "Request Successful"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:56 pm</td>
+        <td>
+          Status Code = 200
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Employee Review List API is working fine</p>
+            <p class="text-sm">
+              <span>12:46:56 pm</span> / <span>00:00:00:467</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Employee Review List API is working fine</h5>
+<span class='badge badge-success'>02.15.2024 12:46:56 pm</span>
+<span class='badge badge-danger'>02.15.2024 12:46:56 pm</span>
+<span class='badge badge-default'>00:00:00:467</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:56 pm</td>
+        <td>
+          Response = {
+    "responseData": [
+        {
+            "id": 3341,
+            "reviewName": "Self SKip-L1 Manager Review",
+            "reviewType": "Periodic",
+            "startDate": null,
+            "dueDate": null,
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": true,
+            "appraisalCycleId": "28EmsD0rFo7s1L2a3S4hepGpjSwyTAe1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": false,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3340,
+            "reviewName": "Review",
+            "reviewType": "Periodic",
+            "startDate": "15 Feb 2024",
+            "dueDate": "17 Feb 2024",
+            "isDateWithInRange": true,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": false,
+            "appraisalCycleId": "wKmdWKcwViU6M3uKUs1L2a3S4hAPPQe1Q2u3A4le1Q2u3A4l",
+            "dateColor": "GREEN",
+            "showOverallRating": true,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3339,
+            "reviewName": "Review",
+            "reviewType": "Periodic",
+            "startDate": "15 Feb 2024",
+            "dueDate": "17 Feb 2024",
+            "isDateWithInRange": true,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": false,
+            "appraisalCycleId": "xrjdVcqoSus1L2a3S4hvAHhqvSVoZge1Q2u3A4le1Q2u3A4l",
+            "dateColor": "GREEN",
+            "showOverallRating": false,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3319,
+            "reviewName": "check learning recomdation",
+            "reviewType": "Periodic",
+            "startDate": "15 Feb 2024",
+            "dueDate": "17 Feb 2024",
+            "isDateWithInRange": true,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": false,
+            "appraisalCycleId": "cp1L2u3SXUPk5NVmDQg2wd5UbH0Ae1Q2u3A4le1Q2u3A4l",
+            "dateColor": "GREEN",
+            "showOverallRating": true,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3318,
+            "reviewName": "First Automation Review",
+            "reviewType": "Periodic",
+            "startDate": "24 Jan 2024",
+            "dueDate": "26 Jan 2024",
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": false,
+            "appraisalCycleId": "4XHoFt72hbzs7hFjSn5cdge1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": true,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3314,
+            "reviewName": "Review feb month (anshu)",
+            "reviewType": "Periodic",
+            "startDate": null,
+            "dueDate": null,
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": true,
+            "appraisalCycleId": "8ReHNkQJzV19Hv22gkYPeAe1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": true,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3313,
+            "reviewName": "Review feb month (anshu)",
+            "reviewType": "Periodic",
+            "startDate": null,
+            "dueDate": null,
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": true,
+            "appraisalCycleId": "z2bgDu5E7dTnsv4rDDGkcAe1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": true,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3312,
+            "reviewName": "Review feb month (anshu)",
+            "reviewType": "Periodic",
+            "startDate": null,
+            "dueDate": null,
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": true,
+            "appraisalCycleId": "RWUs1L2a3S4hctnlea8zJU2dXv5prge1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": true,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3311,
+            "reviewName": "Review feb month (anshu)",
+            "reviewType": "Periodic",
+            "startDate": "14 Feb 2024",
+            "dueDate": "14 Feb 2024",
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": true,
+            "appraisalCycleId": "Kx6oIYKnyL3nETa2wUs1L2a3S4hUQAe1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": true,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3308,
+            "reviewName": "Review feb month (anshu)",
+            "reviewType": "Periodic",
+            "startDate": "13 Feb 2024",
+            "dueDate": "14 Feb 2024",
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": false,
+            "appraisalCycleId": "9A2pveToh2xAkmrhEVR2BAe1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": true,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3307,
+            "reviewName": "Outcome only review",
+            "reviewType": "Periodic",
+            "startDate": "13 Feb 2024",
+            "dueDate": "15 Feb 2024",
+            "isDateWithInRange": true,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": false,
+            "appraisalCycleId": "aRuzs1L2a3S4hGdf9zOyzFteFAUf1we1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": false,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3303,
+            "reviewName": "Review",
+            "reviewType": "Periodic",
+            "startDate": "13 Feb 2024",
+            "dueDate": "15 Feb 2024",
+            "isDateWithInRange": true,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": false,
+            "appraisalCycleId": "IayXfcy2FH2ZTqiQRlNqnge1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": false,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3302,
+            "reviewName": "Review",
+            "reviewType": "Periodic",
+            "startDate": "13 Feb 2024",
+            "dueDate": "15 Feb 2024",
+            "isDateWithInRange": true,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": false,
+            "appraisalCycleId": "V2G6PUWp1L2u3SGx6DIFaQv49LFQe1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": true,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3297,
+            "reviewName": "Self Skip-L1 Manager",
+            "reviewType": "Periodic",
+            "startDate": null,
+            "dueDate": null,
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": true,
+            "appraisalCycleId": "s1L2a3S4h5DVum8ep7DR8qKm2s1L2a3S4hcZUwe1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": false,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3296,
+            "reviewName": "Don't Capture Rating",
+            "reviewType": "Periodic",
+            "startDate": "12 Feb 2024",
+            "dueDate": "14 Feb 2024",
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": false,
+            "appraisalCycleId": "6RgmGomQiT2FibVKihZPUAe1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": true,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3291,
+            "reviewName": "Review For Consolidated Rating Report",
+            "reviewType": "Periodic",
+            "startDate": "11 Feb 2024",
+            "dueDate": "14 Feb 2024",
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": false,
+            "appraisalCycleId": "aXyp1L2u3SAQ1RmfSAp1L2u3S7XZs1L2a3S4h485sQe1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": true,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3288,
+            "reviewName": "Review",
+            "reviewType": "Periodic",
+            "startDate": "10 Feb 2024",
+            "dueDate": "12 Feb 2024",
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": false,
+            "appraisalCycleId": "slqQynraFDiYsmofZCJs1L2a3S4hYwe1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": false,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3282,
+            "reviewName": "Review-Clone",
+            "reviewType": "Periodic",
+            "startDate": "10 Feb 2024",
+            "dueDate": "12 Feb 2024",
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": false,
+            "appraisalCycleId": "cvUmV2fQo5A4jZPeMGsdTQe1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": true,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3281,
+            "reviewName": "Review",
+            "reviewType": "Periodic",
+            "startDate": "10 Feb 2024",
+            "dueDate": "11 Feb 2024",
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": false,
+            "appraisalCycleId": "DYFFvSeL3Ug4ZrqIRJq5UAe1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": true,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3280,
+            "reviewName": "Review (Tested Next Day)",
+            "reviewType": "Periodic",
+            "startDate": "12 Feb 2024",
+            "dueDate": "12 Feb 2024",
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": false,
+            "appraisalCycleId": "dM3uobJuz3oAWYCOlgDP5Qe1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": true,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3279,
+            "reviewName": "Review with Behaviour",
+            "reviewType": "Periodic",
+            "startDate": "10 Feb 2024",
+            "dueDate": "12 Feb 2024",
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": true,
+            "appraisalCycleId": "FBYS5q6n6J1s1L2a3S4hz2s1L2a3S4hIgKWqhAe1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": false,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3278,
+            "reviewName": "Review",
+            "reviewType": "Periodic",
+            "startDate": "10 Feb 2024",
+            "dueDate": "11 Feb 2024",
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": true,
+            "appraisalCycleId": "0JhOuwe9E8Rg2RkBojjnfge1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": false,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3277,
+            "reviewName": "Review",
+            "reviewType": "Periodic",
+            "startDate": "10 Feb 2024",
+            "dueDate": "11 Feb 2024",
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": false,
+            "appraisalCycleId": "NZUTsM9879vjp1L2u3SOHGZLGbsge1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": false,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3276,
+            "reviewName": "feedback notes",
+            "reviewType": "Periodic",
+            "startDate": "09 Feb 2024",
+            "dueDate": "13 Feb 2024",
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "CLOSED",
+            "reviewDone": true,
+            "appraisalCycleId": "fs1WMRFTFm5RRsj2sup1L2u3SFmge1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": true,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3275,
+            "reviewName": "skill review",
+            "reviewType": "Periodic",
+            "startDate": "09 Feb 2024",
+            "dueDate": "12 Feb 2024",
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": true,
+            "appraisalCycleId": "os28pK8zAlNxAOWaDD4U5Qe1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": true,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3274,
+            "reviewName": "Ticket 5945",
+            "reviewType": "Periodic",
+            "startDate": "09 Feb 2024",
+            "dueDate": "10 Feb 2024",
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": false,
+            "appraisalCycleId": "NssBcFlBqg5fMJs1L2a3S4hnJM5ZVQe1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": true,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3273,
+            "reviewName": "For Department",
+            "reviewType": "Periodic",
+            "startDate": "08 Feb 2024",
+            "dueDate": "10 Feb 2024",
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": false,
+            "appraisalCycleId": "sDUdWiLeYLuBs3MGUPyBdge1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": true,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3271,
+            "reviewName": "Review -Clone",
+            "reviewType": "Periodic",
+            "startDate": null,
+            "dueDate": null,
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": true,
+            "appraisalCycleId": "uifXtlCXeCrHRLnCEs1L2a3S4hZk7we1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": true,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3270,
+            "reviewName": "Review 4",
+            "reviewType": "Periodic",
+            "startDate": "08 Feb 2024",
+            "dueDate": "10 Feb 2024",
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": false,
+            "appraisalCycleId": "ERTFMTs1L2a3S4hp2Q5p1L2u3SHqVcgyASBQe1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": false,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3267,
+            "reviewName": "custom L2",
+            "reviewType": "Periodic",
+            "startDate": "10 Feb 2024",
+            "dueDate": "12 Feb 2024",
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": false,
+            "appraisalCycleId": "6CFn5UoTvUFV02K8swfds1L2a3S4hge1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": false,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3266,
+            "reviewName": "Review",
+            "reviewType": "Periodic",
+            "startDate": "08 Feb 2024",
+            "dueDate": "10 Feb 2024",
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": false,
+            "appraisalCycleId": "pqhqGvtuux2Fyp9sjfVC5Qe1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": false,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3264,
+            "reviewName": "Testing Queue",
+            "reviewType": "Periodic",
+            "startDate": "08 Feb 2024",
+            "dueDate": "09 Feb 2024",
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": false,
+            "appraisalCycleId": "Wtps1L2a3S4hSpdFs2WLsrY1xGdASwe1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": false,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3263,
+            "reviewName": "Review with OKR,IDP,SKILL AND POTENTIAL",
+            "reviewType": "Periodic",
+            "startDate": null,
+            "dueDate": null,
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": true,
+            "appraisalCycleId": "CuUjxX1es1L2a3S4hfSHAlSMvJ3luge1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": false,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3262,
+            "reviewName": "Review with OKR IDP SKILL AND POTENTIAL",
+            "reviewType": "Periodic",
+            "startDate": "07 Feb 2024",
+            "dueDate": "09 Feb 2024",
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": false,
+            "appraisalCycleId": "Z6ZmE81dyeg5cuq8bX75AQe1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": false,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3261,
+            "reviewName": "Self Skip-L1 Manager",
+            "reviewType": "Periodic",
+            "startDate": null,
+            "dueDate": null,
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "CLOSED",
+            "reviewDone": true,
+            "appraisalCycleId": "5L7P0m2KI7wi6w756gXmjAe1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": true,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": true,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3260,
+            "reviewName": "MultiRater Participation Report",
+            "reviewType": "Periodic",
+            "startDate": "07 Feb 2024",
+            "dueDate": "09 Feb 2024",
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": false,
+            "appraisalCycleId": "qLcQywe0HM0SpmWzhkuTJQe1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": false,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3259,
+            "reviewName": "Review with Self Skip and Additional Feedback Questions",
+            "reviewType": "Periodic",
+            "startDate": null,
+            "dueDate": null,
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": true,
+            "appraisalCycleId": "PiO3M3iPkczMBp1L2u3SqEtnKARwe1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": false,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3258,
+            "reviewName": "Review-Custom List",
+            "reviewType": "Periodic",
+            "startDate": "07 Feb 2024",
+            "dueDate": "09 Feb 2024",
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": false,
+            "appraisalCycleId": "INEamBCWkrp1L2u3S6TrM3umOQwwe1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": true,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3257,
+            "reviewName": "mutli",
+            "reviewType": "Periodic",
+            "startDate": "07 Feb 2024",
+            "dueDate": "09 Feb 2024",
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": false,
+            "appraisalCycleId": "KNkGY9j4MIZ21vssk7cnbge1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": false,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3253,
+            "reviewName": "Review 4",
+            "reviewType": "Periodic",
+            "startDate": "07 Feb 2024",
+            "dueDate": "10 Feb 2024",
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": false,
+            "appraisalCycleId": "MfxlxXg5MuJSqy11PDEssge1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": false,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3251,
+            "reviewName": "Review 2",
+            "reviewType": "Periodic",
+            "startDate": "07 Feb 2024",
+            "dueDate": "10 Feb 2024",
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": false,
+            "appraisalCycleId": "Irij6Mr6s1L2a3S4hXzyBm7KhMeQLAe1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": true,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3248,
+            "reviewName": "Review 1",
+            "reviewType": "Periodic",
+            "startDate": "07 Feb 2024",
+            "dueDate": "09 Feb 2024",
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": false,
+            "appraisalCycleId": "yRfp1L2u3SnJtkNpbakSLt3Yp7sge1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": true,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3246,
+            "reviewName": "send back",
+            "reviewType": "Periodic",
+            "startDate": "07 Feb 2024",
+            "dueDate": "16 Feb 2024",
+            "isDateWithInRange": true,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": false,
+            "appraisalCycleId": "etz9ihr3Jp1L2u3S59D8ddPiusRAe1Q2u3A4le1Q2u3A4l",
+            "dateColor": "GREEN",
+            "showOverallRating": true,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3240,
+            "reviewName": "Final Review",
+            "reviewType": "Periodic",
+            "startDate": "06 Feb 2024",
+            "dueDate": "09 Feb 2024",
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": false,
+            "appraisalCycleId": "ftauCKZoK0kmlYfhqb3Kqwe1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": true,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3239,
+            "reviewName": "demo for lalit",
+            "reviewType": "Periodic",
+            "startDate": "06 Feb 2024",
+            "dueDate": "10 Feb 2024",
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": false,
+            "appraisalCycleId": "vg2HwUUvrGLMM1Lis1L2a3S4heIg4we1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": true,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 3238,
+            "reviewName": "Performance Review",
+            "reviewType": "Periodic",
+            "startDate": "06 Feb 2024",
+            "dueDate": "09 Feb 2024",
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "OPEN",
+            "reviewDone": false,
+            "appraisalCycleId": "bCvjI83B5BTtvg6EN0lClQe1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": false,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        },
+        {
+            "id": 2806,
+            "reviewName": "Mid Year Review_FY 2023-2024",
+            "reviewType": "Periodic",
+            "startDate": "19 Oct 2023",
+            "dueDate": "10 Nov 2023",
+            "isDateWithInRange": false,
+            "finalRating": null,
+            "ratingLabel": "N/A",
+            "ratingDesc": "N/A",
+            "reviewStatus": "CLOSED",
+            "reviewDone": true,
+            "appraisalCycleId": "WaQ4Fp1L2u3SE03Gsg8b9s1L2a3S4hlAYHeAe1Q2u3A4le1Q2u3A4l",
+            "dateColor": "RED",
+            "showOverallRating": true,
+            "feedbackEnabled": false,
+            "feedbackSubmitted": false,
+            "showAcknowledgeButton": false,
+            "isLetterGenerated": false
+        }
+    ],
+    "message": {
+        "code": "EC200",
+        "message": "Request Successful",
+        "description": "Request Successful"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:56 pm</td>
+        <td>
+          Status Code = 200
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">L1 Review List API is working fine</p>
+            <p class="text-sm">
+              <span>12:46:57 pm</span> / <span>00:00:00:435</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">L1 Review List API is working fine</h5>
+<span class='badge badge-success'>02.15.2024 12:46:57 pm</span>
+<span class='badge badge-danger'>02.15.2024 12:46:57 pm</span>
+<span class='badge badge-default'>00:00:00:435</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:57 pm</td>
+        <td>
+          Response = {
+    "responseData": [
+        {
+            "id": 3341,
+            "appraisalCycleId": "28EmsD0rFo7s1L2a3S4hepGpjSwyTAe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Self SKip-L1 Manager Review",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3340,
+            "appraisalCycleId": "wKmdWKcwViU6M3uKUs1L2a3S4hAPPQe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3339,
+            "appraisalCycleId": "xrjdVcqoSus1L2a3S4hvAHhqvSVoZge1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3319,
+            "appraisalCycleId": "cp1L2u3SXUPk5NVmDQg2wd5UbH0Ae1Q2u3A4le1Q2u3A4l",
+            "reviewName": "check learning recomdation",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3318,
+            "appraisalCycleId": "4XHoFt72hbzs7hFjSn5cdge1Q2u3A4le1Q2u3A4l",
+            "reviewName": "First Automation Review",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3314,
+            "appraisalCycleId": "8ReHNkQJzV19Hv22gkYPeAe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review feb month (anshu)",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3313,
+            "appraisalCycleId": "z2bgDu5E7dTnsv4rDDGkcAe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review feb month (anshu)",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3312,
+            "appraisalCycleId": "RWUs1L2a3S4hctnlea8zJU2dXv5prge1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review feb month (anshu)",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3311,
+            "appraisalCycleId": "Kx6oIYKnyL3nETa2wUs1L2a3S4hUQAe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review feb month (anshu)",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3308,
+            "appraisalCycleId": "9A2pveToh2xAkmrhEVR2BAe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review feb month (anshu)",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3307,
+            "appraisalCycleId": "aRuzs1L2a3S4hGdf9zOyzFteFAUf1we1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Outcome only review",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3303,
+            "appraisalCycleId": "IayXfcy2FH2ZTqiQRlNqnge1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3302,
+            "appraisalCycleId": "V2G6PUWp1L2u3SGx6DIFaQv49LFQe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3297,
+            "appraisalCycleId": "s1L2a3S4h5DVum8ep7DR8qKm2s1L2a3S4hcZUwe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Self Skip-L1 Manager",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3296,
+            "appraisalCycleId": "6RgmGomQiT2FibVKihZPUAe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Don't Capture Rating",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3291,
+            "appraisalCycleId": "aXyp1L2u3SAQ1RmfSAp1L2u3S7XZs1L2a3S4h485sQe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review For Consolidated Rating Report",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3288,
+            "appraisalCycleId": "slqQynraFDiYsmofZCJs1L2a3S4hYwe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3282,
+            "appraisalCycleId": "cvUmV2fQo5A4jZPeMGsdTQe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review-Clone",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3281,
+            "appraisalCycleId": "DYFFvSeL3Ug4ZrqIRJq5UAe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3280,
+            "appraisalCycleId": "dM3uobJuz3oAWYCOlgDP5Qe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review (Tested Next Day)",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3279,
+            "appraisalCycleId": "FBYS5q6n6J1s1L2a3S4hz2s1L2a3S4hIgKWqhAe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review with Behaviour",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3278,
+            "appraisalCycleId": "0JhOuwe9E8Rg2RkBojjnfge1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3277,
+            "appraisalCycleId": "NZUTsM9879vjp1L2u3SOHGZLGbsge1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3276,
+            "appraisalCycleId": "fs1WMRFTFm5RRsj2sup1L2u3SFmge1Q2u3A4le1Q2u3A4l",
+            "reviewName": "feedback notes",
+            "reviewStatus": "CLOSED",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3275,
+            "appraisalCycleId": "os28pK8zAlNxAOWaDD4U5Qe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "skill review",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3274,
+            "appraisalCycleId": "NssBcFlBqg5fMJs1L2a3S4hnJM5ZVQe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Ticket 5945",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3273,
+            "appraisalCycleId": "sDUdWiLeYLuBs3MGUPyBdge1Q2u3A4le1Q2u3A4l",
+            "reviewName": "For Department",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3270,
+            "appraisalCycleId": "ERTFMTs1L2a3S4hp2Q5p1L2u3SHqVcgyASBQe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review 4",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3267,
+            "appraisalCycleId": "6CFn5UoTvUFV02K8swfds1L2a3S4hge1Q2u3A4le1Q2u3A4l",
+            "reviewName": "custom L2",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3266,
+            "appraisalCycleId": "pqhqGvtuux2Fyp9sjfVC5Qe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3264,
+            "appraisalCycleId": "Wtps1L2a3S4hSpdFs2WLsrY1xGdASwe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Testing Queue",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3263,
+            "appraisalCycleId": "CuUjxX1es1L2a3S4hfSHAlSMvJ3luge1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review with OKR,IDP,SKILL AND POTENTIAL",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3262,
+            "appraisalCycleId": "Z6ZmE81dyeg5cuq8bX75AQe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review with OKR IDP SKILL AND POTENTIAL",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3261,
+            "appraisalCycleId": "5L7P0m2KI7wi6w756gXmjAe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Self Skip-L1 Manager",
+            "reviewStatus": "CLOSED",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3260,
+            "appraisalCycleId": "qLcQywe0HM0SpmWzhkuTJQe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "MultiRater Participation Report",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3259,
+            "appraisalCycleId": "PiO3M3iPkczMBp1L2u3SqEtnKARwe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review with Self Skip and Additional Feedback Questions",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3258,
+            "appraisalCycleId": "INEamBCWkrp1L2u3S6TrM3umOQwwe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review-Custom List",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3257,
+            "appraisalCycleId": "KNkGY9j4MIZ21vssk7cnbge1Q2u3A4le1Q2u3A4l",
+            "reviewName": "mutli",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3251,
+            "appraisalCycleId": "Irij6Mr6s1L2a3S4hXzyBm7KhMeQLAe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review 2",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3248,
+            "appraisalCycleId": "yRfp1L2u3SnJtkNpbakSLt3Yp7sge1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review 1",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3246,
+            "appraisalCycleId": "etz9ihr3Jp1L2u3S59D8ddPiusRAe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "send back",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3240,
+            "appraisalCycleId": "ftauCKZoK0kmlYfhqb3Kqwe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Final Review",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3239,
+            "appraisalCycleId": "vg2HwUUvrGLMM1Lis1L2a3S4heIg4we1Q2u3A4le1Q2u3A4l",
+            "reviewName": "demo for lalit",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 3238,
+            "appraisalCycleId": "bCvjI83B5BTtvg6EN0lClQe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Performance Review",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        },
+        {
+            "id": 2806,
+            "appraisalCycleId": "WaQ4Fp1L2u3SE03Gsg8b9s1L2a3S4hlAYHeAe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Mid Year Review_FY 2023-2024",
+            "reviewStatus": "CLOSED",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "l1ReviewDone": false
+        }
+    ],
+    "message": {
+        "code": "EC200",
+        "message": "Request Successful",
+        "description": "Request Successful"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:57 pm</td>
+        <td>
+          Status Code = 200
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">L2 Review List API is working fine</p>
+            <p class="text-sm">
+              <span>12:46:57 pm</span> / <span>00:00:00:397</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">L2 Review List API is working fine</h5>
+<span class='badge badge-success'>02.15.2024 12:46:57 pm</span>
+<span class='badge badge-danger'>02.15.2024 12:46:57 pm</span>
+<span class='badge badge-default'>00:00:00:397</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:57 pm</td>
+        <td>
+          Response = {
+    "responseData": [
+        {
+            "id": 3340,
+            "appraisalCycleId": "wKmdWKcwViU6M3uKUs1L2a3S4hAPPQe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "includeL2Review": "Y",
+            "l2ReviewerType": "L2_ACT_AS_REVIEWER"
+        },
+        {
+            "id": 3339,
+            "appraisalCycleId": "xrjdVcqoSus1L2a3S4hvAHhqvSVoZge1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "includeL2Review": "Y",
+            "l2ReviewerType": "L2_ACT_AS_REVIEWER"
+        },
+        {
+            "id": 3319,
+            "appraisalCycleId": "cp1L2u3SXUPk5NVmDQg2wd5UbH0Ae1Q2u3A4le1Q2u3A4l",
+            "reviewName": "check learning recomdation",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "includeL2Review": "Y",
+            "l2ReviewerType": "L2_ACT_AS_REVIEWER"
+        },
+        {
+            "id": 3318,
+            "appraisalCycleId": "4XHoFt72hbzs7hFjSn5cdge1Q2u3A4le1Q2u3A4l",
+            "reviewName": "First Automation Review",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "includeL2Review": "Y",
+            "l2ReviewerType": "L2_ACT_AS_REVIEWER"
+        },
+        {
+            "id": 3314,
+            "appraisalCycleId": "8ReHNkQJzV19Hv22gkYPeAe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review feb month (anshu)",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "includeL2Review": "Y",
+            "l2ReviewerType": "CUSTOM_REVIEWER"
+        },
+        {
+            "id": 3311,
+            "appraisalCycleId": "Kx6oIYKnyL3nETa2wUs1L2a3S4hUQAe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review feb month (anshu)",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "includeL2Review": "Y",
+            "l2ReviewerType": "L2_ACT_AS_REVIEWER"
+        },
+        {
+            "id": 3308,
+            "appraisalCycleId": "9A2pveToh2xAkmrhEVR2BAe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review feb month (anshu)",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "includeL2Review": "Y",
+            "l2ReviewerType": "L2_ACT_AS_REVIEWER"
+        },
+        {
+            "id": 3302,
+            "appraisalCycleId": "V2G6PUWp1L2u3SGx6DIFaQv49LFQe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "includeL2Review": "Y",
+            "l2ReviewerType": "L2_ACT_AS_REVIEWER"
+        },
+        {
+            "id": 3296,
+            "appraisalCycleId": "6RgmGomQiT2FibVKihZPUAe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Don't Capture Rating",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "includeL2Review": "Y",
+            "l2ReviewerType": "L2_ACT_AS_REVIEWER"
+        },
+        {
+            "id": 3291,
+            "appraisalCycleId": "aXyp1L2u3SAQ1RmfSAp1L2u3S7XZs1L2a3S4h485sQe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review For Consolidated Rating Report",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "includeL2Review": "Y",
+            "l2ReviewerType": "L2_ACT_AS_REVIEWER"
+        },
+        {
+            "id": 3288,
+            "appraisalCycleId": "slqQynraFDiYsmofZCJs1L2a3S4hYwe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "includeL2Review": "Y",
+            "l2ReviewerType": "L2_ACT_AS_REVIEWER"
+        },
+        {
+            "id": 3280,
+            "appraisalCycleId": "dM3uobJuz3oAWYCOlgDP5Qe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review (Tested Next Day)",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "includeL2Review": "Y",
+            "l2ReviewerType": "L2_ACT_AS_REVIEWER"
+        },
+        {
+            "id": 3279,
+            "appraisalCycleId": "FBYS5q6n6J1s1L2a3S4hz2s1L2a3S4hIgKWqhAe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review with Behaviour",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "includeL2Review": "Y",
+            "l2ReviewerType": "L2_ACT_AS_REVIEWER"
+        },
+        {
+            "id": 3277,
+            "appraisalCycleId": "NZUTsM9879vjp1L2u3SOHGZLGbsge1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "includeL2Review": "Y",
+            "l2ReviewerType": "L2_ACT_AS_REVIEWER"
+        },
+        {
+            "id": 3276,
+            "appraisalCycleId": "fs1WMRFTFm5RRsj2sup1L2u3SFmge1Q2u3A4le1Q2u3A4l",
+            "reviewName": "feedback notes",
+            "reviewStatus": "CLOSED",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "includeL2Review": "Y",
+            "l2ReviewerType": "L2_ACT_AS_REVIEWER"
+        },
+        {
+            "id": 3275,
+            "appraisalCycleId": "os28pK8zAlNxAOWaDD4U5Qe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "skill review",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "includeL2Review": "Y",
+            "l2ReviewerType": "L2_ACT_AS_REVIEWER"
+        },
+        {
+            "id": 3273,
+            "appraisalCycleId": "sDUdWiLeYLuBs3MGUPyBdge1Q2u3A4le1Q2u3A4l",
+            "reviewName": "For Department",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "includeL2Review": "Y",
+            "l2ReviewerType": "L2_ACT_AS_REVIEWER"
+        },
+        {
+            "id": 3271,
+            "appraisalCycleId": "uifXtlCXeCrHRLnCEs1L2a3S4hZk7we1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review -Clone",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "includeL2Review": "Y",
+            "l2ReviewerType": "L2_ACT_AS_REVIEWER"
+        },
+        {
+            "id": 3270,
+            "appraisalCycleId": "ERTFMTs1L2a3S4hp2Q5p1L2u3SHqVcgyASBQe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review 4",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "includeL2Review": "Y",
+            "l2ReviewerType": "L2_ACT_AS_REVIEWER"
+        },
+        {
+            "id": 3267,
+            "appraisalCycleId": "6CFn5UoTvUFV02K8swfds1L2a3S4hge1Q2u3A4le1Q2u3A4l",
+            "reviewName": "custom L2",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "includeL2Review": "Y",
+            "l2ReviewerType": "CUSTOM_REVIEWER"
+        },
+        {
+            "id": 3266,
+            "appraisalCycleId": "pqhqGvtuux2Fyp9sjfVC5Qe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "includeL2Review": "Y",
+            "l2ReviewerType": "L2_ACT_AS_REVIEWER"
+        },
+        {
+            "id": 3262,
+            "appraisalCycleId": "Z6ZmE81dyeg5cuq8bX75AQe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review with OKR IDP SKILL AND POTENTIAL",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "includeL2Review": "Y",
+            "l2ReviewerType": "L2_ACT_AS_REVIEWER"
+        },
+        {
+            "id": 3260,
+            "appraisalCycleId": "qLcQywe0HM0SpmWzhkuTJQe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "MultiRater Participation Report",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "includeL2Review": "Y",
+            "l2ReviewerType": "L2_ACT_AS_REVIEWER"
+        },
+        {
+            "id": 3258,
+            "appraisalCycleId": "INEamBCWkrp1L2u3S6TrM3umOQwwe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review-Custom List",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "includeL2Review": "Y",
+            "l2ReviewerType": "CUSTOM_REVIEWER"
+        },
+        {
+            "id": 3257,
+            "appraisalCycleId": "KNkGY9j4MIZ21vssk7cnbge1Q2u3A4le1Q2u3A4l",
+            "reviewName": "mutli",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "includeL2Review": "Y",
+            "l2ReviewerType": "L2_ACT_AS_REVIEWER"
+        },
+        {
+            "id": 3253,
+            "appraisalCycleId": "MfxlxXg5MuJSqy11PDEssge1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review 4",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "includeL2Review": "Y",
+            "l2ReviewerType": "L2_ACT_AS_REVIEWER"
+        },
+        {
+            "id": 3251,
+            "appraisalCycleId": "Irij6Mr6s1L2a3S4hXzyBm7KhMeQLAe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Review 2",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "includeL2Review": "Y",
+            "l2ReviewerType": "L2_ACT_AS_REVIEWER"
+        },
+        {
+            "id": 3246,
+            "appraisalCycleId": "etz9ihr3Jp1L2u3S59D8ddPiusRAe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "send back",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "includeL2Review": "Y",
+            "l2ReviewerType": "L2_ACT_AS_REVIEWER"
+        },
+        {
+            "id": 3240,
+            "appraisalCycleId": "ftauCKZoK0kmlYfhqb3Kqwe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Final Review",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "includeL2Review": "Y",
+            "l2ReviewerType": "L2_ACT_AS_REVIEWER"
+        },
+        {
+            "id": 3239,
+            "appraisalCycleId": "vg2HwUUvrGLMM1Lis1L2a3S4heIg4we1Q2u3A4le1Q2u3A4l",
+            "reviewName": "demo for lalit",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "includeL2Review": "Y",
+            "l2ReviewerType": "L2_ACT_AS_REVIEWER"
+        },
+        {
+            "id": 3238,
+            "appraisalCycleId": "bCvjI83B5BTtvg6EN0lClQe1Q2u3A4le1Q2u3A4l",
+            "reviewName": "Performance Review",
+            "reviewStatus": "OPEN",
+            "appraisalType": null,
+            "reviewType": "Periodic",
+            "includeL2Review": "Y",
+            "l2ReviewerType": "L2_ACT_AS_REVIEWER"
+        }
+    ],
+    "message": {
+        "code": "EC200",
+        "message": "Request Successful",
+        "description": "Request Successful"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:57 pm</td>
+        <td>
+          Status Code = 200
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Goal is getting approved Successfully</p>
+            <p class="text-sm">
+              <span>12:46:57 pm</span> / <span>00:00:00:319</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Goal is getting approved Successfully</h5>
+<span class='badge badge-success'>02.15.2024 12:46:57 pm</span>
+<span class='badge badge-danger'>02.15.2024 12:46:58 pm</span>
+<span class='badge badge-default'>00:00:00:319</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:58 pm</td>
+        <td>
+          Response = {
+    "responseData": null,
+    "message": {
+        "code": "EC201",
+        "message": "Something Went Wrong",
+        "description": "BAD REQUEST"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:58 pm</td>
+        <td>
+          Status Code = 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:46:58 pm</td>
+        <td>
+          Validation Passed: Status code is 200  and response contains 'SUCCESS'
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Goal is getting Rejected Successfully</p>
+            <p class="text-sm">
+              <span>12:46:58 pm</span> / <span>00:00:00:319</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Goal is getting Rejected Successfully</h5>
+<span class='badge badge-success'>02.15.2024 12:46:58 pm</span>
+<span class='badge badge-danger'>02.15.2024 12:46:58 pm</span>
+<span class='badge badge-default'>00:00:00:319</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:58 pm</td>
+        <td>
+          Response = {
+    "responseData": null,
+    "message": {
+        "code": "EC201",
+        "message": "Something Went Wrong",
+        "description": "BAD REQUEST"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:58 pm</td>
+        <td>
+          Status Code = 200
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Goal is sent for Review and Closure Successfully</p>
+            <p class="text-sm">
+              <span>12:46:58 pm</span> / <span>00:00:00:320</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Goal is sent for Review and Closure Successfully</h5>
+<span class='badge badge-success'>02.15.2024 12:46:58 pm</span>
+<span class='badge badge-danger'>02.15.2024 12:46:58 pm</span>
+<span class='badge badge-default'>00:00:00:320</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:58 pm</td>
+        <td>
+          Response = {
+    "responseData": null,
+    "message": {
+        "code": "EC200",
+        "message": "Goal closing initiated successfully",
+        "description": "Request Successful"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:58 pm</td>
+        <td>
+          Status Code = 200
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="13"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Goal is Closed  Successfully</p>
+            <p class="text-sm">
+              <span>12:46:58 pm</span> / <span>00:00:00:523</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Goal is Closed Successfully</h5>
+<span class='badge badge-success'>02.15.2024 12:46:58 pm</span>
+<span class='badge badge-danger'>02.15.2024 12:46:59 pm</span>
+<span class='badge badge-default'>00:00:00:523</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:59 pm</td>
+        <td>
+          Response = {
+    "responseData": null,
+    "message": {
+        "code": "EC200",
+        "message": "Goal closed successfully",
+        "description": "Request Successful"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:59 pm</td>
+        <td>
+          Status Code = 200
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Goal Send for Closure is Rejected Successfully</p>
+            <p class="text-sm">
+              <span>12:46:59 pm</span> / <span>00:00:00:368</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Goal Send for Closure is Rejected Successfully</h5>
+<span class='badge badge-success'>02.15.2024 12:46:59 pm</span>
+<span class='badge badge-danger'>02.15.2024 12:46:59 pm</span>
+<span class='badge badge-default'>00:00:00:368</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:59 pm</td>
+        <td>
+          Response = {
+    "responseData": null,
+    "message": {
+        "code": "EC200",
+        "message": "Goal closure rejected successfully",
+        "description": "Request Successful"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:46:59 pm</td>
+        <td>
+          Status Code = 200
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">IDP is Approved Successfully</p>
+            <p class="text-sm">
+              <span>12:46:59 pm</span> / <span>00:00:00:332</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">IDP is Approved Successfully</h5>
+<span class='badge badge-success'>02.15.2024 12:46:59 pm</span>
+<span class='badge badge-danger'>02.15.2024 12:47:00 pm</span>
+<span class='badge badge-default'>00:00:00:332</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:47:00 pm</td>
+        <td>
+          Response = {
+    "responseData": null,
+    "message": {
+        "code": "EC201",
+        "message": "Something Went Wrong",
+        "description": "BAD REQUEST"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:47:00 pm</td>
+        <td>
+          Status Code = 200
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="16"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">IDP is Rejected Successfully</p>
+            <p class="text-sm">
+              <span>12:47:00 pm</span> / <span>00:00:00:382</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">IDP is Rejected Successfully</h5>
+<span class='badge badge-success'>02.15.2024 12:47:00 pm</span>
+<span class='badge badge-danger'>02.15.2024 12:47:00 pm</span>
+<span class='badge badge-default'>00:00:00:382</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:47:00 pm</td>
+        <td>
+          Response = {
+    "responseData": null,
+    "message": {
+        "code": "EC201",
+        "message": "Something Went Wrong",
+        "description": "BAD REQUEST"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:47:00 pm</td>
+        <td>
+          Status Code = 200
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">IDP is send for Review and Closure Successfully</p>
+            <p class="text-sm">
+              <span>12:47:00 pm</span> / <span>00:00:00:335</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">IDP is send for Review and Closure Successfully</h5>
+<span class='badge badge-success'>02.15.2024 12:47:00 pm</span>
+<span class='badge badge-danger'>02.15.2024 12:47:00 pm</span>
+<span class='badge badge-default'>00:00:00:335</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:47:00 pm</td>
+        <td>
+          Response = {
+    "responseData": null,
+    "message": {
+        "code": "EC200",
+        "message": "Goal closing initiated successfully",
+        "description": "Request Successful"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:47:00 pm</td>
+        <td>
+          Status Code = 200
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="18"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">IDP is Closed  Successfully</p>
+            <p class="text-sm">
+              <span>12:47:00 pm</span> / <span>00:00:00:341</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">IDP is Closed Successfully</h5>
+<span class='badge badge-success'>02.15.2024 12:47:00 pm</span>
+<span class='badge badge-danger'>02.15.2024 12:47:01 pm</span>
+<span class='badge badge-default'>00:00:00:341</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:47:01 pm</td>
+        <td>
+          Response = {
+    "responseData": null,
+    "message": {
+        "code": "EC200",
+        "message": "Goal closed successfully",
+        "description": "Request Successful"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:47:01 pm</td>
+        <td>
+          Status Code = 200
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="19"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">PIP is Closed  Successfully</p>
+            <p class="text-sm">
+              <span>12:47:01 pm</span> / <span>00:00:00:328</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">PIP is Closed Successfully</h5>
+<span class='badge badge-success'>02.15.2024 12:47:01 pm</span>
+<span class='badge badge-danger'>02.15.2024 12:47:01 pm</span>
+<span class='badge badge-default'>00:00:00:328</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:47:01 pm</td>
+        <td>
+          Response = {
+    "responseData": null,
+    "message": {
+        "code": "EC200",
+        "message": "Goal closed successfully",
+        "description": "Request Successful"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:47:01 pm</td>
+        <td>
+          Status Code = 200
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="20"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Goal Send for Closure is Rejected Successfully</p>
+            <p class="text-sm">
+              <span>12:47:01 pm</span> / <span>00:00:00:349</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Goal Send for Closure is Rejected Successfully</h5>
+<span class='badge badge-success'>02.15.2024 12:47:01 pm</span>
+<span class='badge badge-danger'>02.15.2024 12:47:01 pm</span>
+<span class='badge badge-default'>00:00:00:349</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:47:01 pm</td>
+        <td>
+          Response = {
+    "responseData": null,
+    "message": {
+        "code": "EC200",
+        "message": "Goal closure rejected successfully",
+        "description": "Request Successful"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:47:01 pm</td>
+        <td>
+          Status Code = 200
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="21"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">PIP send for Review and Clousre Rejected Successfully</p>
+            <p class="text-sm">
+              <span>12:47:01 pm</span> / <span>00:00:00:333</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">PIP send for Review and Clousre Rejected Successfully</h5>
+<span class='badge badge-success'>02.15.2024 12:47:01 pm</span>
+<span class='badge badge-danger'>02.15.2024 12:47:02 pm</span>
+<span class='badge badge-default'>00:00:00:333</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:47:02 pm</td>
+        <td>
+          Response = {
+    "responseData": null,
+    "message": {
+        "code": "EC200",
+        "message": "Goal closure rejected successfully",
+        "description": "Request Successful"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:47:02 pm</td>
+        <td>
+          Status Code = 200
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="22"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Employee submit the Review Successfully</p>
+            <p class="text-sm">
+              <span>12:47:02 pm</span> / <span>00:00:00:286</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Employee submit the Review Successfully</h5>
+<span class='badge badge-success'>02.15.2024 12:47:02 pm</span>
+<span class='badge badge-danger'>02.15.2024 12:47:02 pm</span>
+<span class='badge badge-default'>00:00:00:286</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:47:02 pm</td>
+        <td>
+          Response = {
+    "responseData": null,
+    "message": {
+        "code": "EC201",
+        "message": "Operation Failed",
+        "description": "BAD REQUEST"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:47:02 pm</td>
+        <td>
+          Status Code = 200
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="23"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">PIP is send for Review and Closure Successfully</p>
+            <p class="text-sm">
+              <span>12:47:02 pm</span> / <span>00:00:00:310</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">PIP is send for Review and Closure Successfully</h5>
+<span class='badge badge-success'>02.15.2024 12:47:02 pm</span>
+<span class='badge badge-danger'>02.15.2024 12:47:02 pm</span>
+<span class='badge badge-default'>00:00:00:310</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:47:02 pm</td>
+        <td>
+          Response = {
+    "responseData": null,
+    "message": {
+        "code": "EC200",
+        "message": "Goal closing initiated successfully",
+        "description": "Request Successful"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:47:02 pm</td>
+        <td>
+          Status Code = 200
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="24"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Employee download the PDF  Successfully</p>
+            <p class="text-sm">
+              <span>12:47:02 pm</span> / <span>00:00:00:299</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Employee download the PDF Successfully</h5>
+<span class='badge badge-success'>02.15.2024 12:47:02 pm</span>
+<span class='badge badge-danger'>02.15.2024 12:47:03 pm</span>
+<span class='badge badge-default'>00:00:00:299</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:47:03 pm</td>
+        <td>
+          Response = {
+    "responseData": null,
+    "message": {
+        "code": "EC201",
+        "message": "Operation Failed",
+        "description": "BAD REQUEST"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:47:03 pm</td>
+        <td>
+          Status Code = 200
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="25"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">L1 Manager submit the Review Successfully</p>
+            <p class="text-sm">
+              <span>12:47:03 pm</span> / <span>00:00:00:448</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">L1 Manager submit the Review Successfully</h5>
+<span class='badge badge-success'>02.15.2024 12:47:03 pm</span>
+<span class='badge badge-danger'>02.15.2024 12:47:03 pm</span>
+<span class='badge badge-default'>00:00:00:448</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:47:03 pm</td>
+        <td>
+          Response = {
+    "responseData": null,
+    "message": {
+        "code": "EC201",
+        "message": "Something Went Wrong...",
+        "description": "Something went wrong"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:47:03 pm</td>
+        <td>
+          Status Code = 200
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="26"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">L1 Manager download the PDF Successfully</p>
+            <p class="text-sm">
+              <span>12:47:03 pm</span> / <span>00:00:00:286</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">L1 Manager download the PDF Successfully</h5>
+<span class='badge badge-success'>02.15.2024 12:47:03 pm</span>
+<span class='badge badge-danger'>02.15.2024 12:47:03 pm</span>
+<span class='badge badge-default'>00:00:00:286</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=26</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:47:03 pm</td>
+        <td>
+          Response = {
+    "responseData": null,
+    "message": {
+        "code": "EC201",
+        "message": "Operation Failed",
+        "description": "BAD REQUEST"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:47:03 pm</td>
+        <td>
+          Status Code = 200
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="27"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">L2 Manager submit the Review Successfully</p>
+            <p class="text-sm">
+              <span>12:47:03 pm</span> / <span>00:00:00:434</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">L2 Manager submit the Review Successfully</h5>
+<span class='badge badge-success'>02.15.2024 12:47:03 pm</span>
+<span class='badge badge-danger'>02.15.2024 12:47:04 pm</span>
+<span class='badge badge-default'>00:00:00:434</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:47:04 pm</td>
+        <td>
+          Response = {
+    "message": {
+        "code": "EC200",
+        "message": "Review submitted successfully",
+        "description": "Request Successful"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:47:04 pm</td>
+        <td>
+          Status Code = 200
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="28"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">L2 Manager download the PDF Successfully</p>
+            <p class="text-sm">
+              <span>12:47:04 pm</span> / <span>00:00:00:293</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">L2 Manager download the PDF Successfully</h5>
+<span class='badge badge-success'>02.15.2024 12:47:04 pm</span>
+<span class='badge badge-danger'>02.15.2024 12:47:04 pm</span>
+<span class='badge badge-default'>00:00:00:293</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=28</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:47:04 pm</td>
+        <td>
+          Response = {
+    "responseData": null,
+    "message": {
+        "code": "EC201",
+        "message": "Operation Failed",
+        "description": "BAD REQUEST"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:47:04 pm</td>
+        <td>
+          Status Code = 200
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Feb 15, 2024 12:46:51 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Feb 15, 2024 12:47:04 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>28</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>28</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='2%'><b>3</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>104</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Goal List Api is working fine":2.281,"Goal is created Successfully":0.35,"Goal Sent for Approval API Test":0.36,"IDP List Api Test":0.44,"Create IDP and Activity Api Test":0.346,"PIP List is Working Fine":0.299,"Employee Review List API is working fine":0.467,"L1 Review List API is working fine":0.435,"L2 Review List API is working fine":0.397,"Goal is getting approved Successfully":0.319,"Goal is getting Rejected Successfully":0.319,"Goal is sent for Review and Closure Successfully":0.32,"Goal is Closed Successfully":0.523,"Goal Send for Closure is Rejected Successfully":0.368,"IDP is Approved Successfully":0.332,"IDP is Rejected Successfully":0.382,"IDP is send for Review and Closure Successfully":0.335,"IDP is Closed Successfully":0.341,"PIP is Closed Successfully":0.328,"Goal Send for Closure is Rejected Successfully":0.349,"PIP send for Review and Clousre Rejected Successfully":0.333,"Employee submit the Review Successfully":0.286,"PIP is send for Review and Closure Successfully":0.31,"Employee download the PDF Successfully":0.299,"L1 Manager submit the Review Successfully":0.448,"L1 Manager download the PDF Successfully":0.286,"L2 Manager submit the Review Successfully":0.434,"L2 Manager download the PDF Successfully":0.293
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 28,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 3,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 104
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

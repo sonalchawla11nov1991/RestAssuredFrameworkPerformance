@@ -1,40 +1,55 @@
 package apiVerification;
 
-import com.relevantcodes.extentreports.LogStatus;
+import com.aventstack.extentreports.Status;
 import io.restassured.response.Response;
 import org.testng.Assert;
-import utilits.ExtentReportListner;
+import utilits.ReportGenerate;
 
-public class ApiVerification extends ExtentReportListner {
-    public static void codeResponseVerification(Response response, int statusCode){
+public class ApiVerification {
+    public static void codeResponseVerification(Response response, String expectedCode) {
         try {
-            Assert.assertEquals(statusCode,response.getStatusCode());
-            test.log(LogStatus.PASS,"Successfully verify response code:: "+response.getStatusCode());
+            String actualCode = response.jsonPath().getString("message.code");
+            Assert.assertEquals(actualCode, expectedCode);
+
+            if (ReportGenerate.extentTest != null) {
+                ReportGenerate.extentTest.log(Status.PASS, "Successfully verify response code: " + actualCode);
+            }
         } catch (AssertionError | Exception e) {
-            test.log(LogStatus.FAIL,e.fillInStackTrace());
+            if (ReportGenerate.extentTest != null) {
+                ReportGenerate.extentTest.log(Status.FAIL, e.fillInStackTrace());
+            }
         }
     }
 
-    public static void responseKeyValidationFromJsonObject(Response response,String key){
+    public static void responseKeyValidationFromJsonObject(Response response, String key) {
         try {
-            String s = response.getBody().asString();
-            if (s.equals(key)) {
-                test.log(LogStatus.PASS, "Sucessfully validate value of " + key);
+            String responseBody = response.getBody().asString();
+            if (responseBody.equals(key)) {
+                if (ReportGenerate.extentTest != null) {
+                    ReportGenerate.extentTest.log(Status.PASS, "Successfully validate value of " + key);
+                }
+            } else {
+                if (ReportGenerate.extentTest != null) {
+                    ReportGenerate.extentTest.log(Status.FAIL, "Key is not available");
+                }
             }
-            else {
-                test.log(LogStatus.FAIL,"Key is not available");
+        } catch (Exception e) {
+            if (ReportGenerate.extentTest != null) {
+                ReportGenerate.extentTest.log(Status.FAIL, e.fillInStackTrace());
             }
-        }catch (Exception e){
-            test.log(LogStatus.FAIL,e.fillInStackTrace());
         }
     }
 
-    public static void timeResponseValidation(Response response){
+    public static void timeResponseValidation(Response response) {
         try {
             long time = response.time();
-            test.log(LogStatus.INFO,"API Response time is = " +time);
+            if (ReportGenerate.extentTest != null) {
+                ReportGenerate.extentTest.log(Status.INFO, "API Response time is = " + time);
+            }
         } catch (Exception e) {
-            test.log(LogStatus.FAIL,e.fillInStackTrace());
+            if (ReportGenerate.extentTest != null) {
+                ReportGenerate.extentTest.log(Status.FAIL, e.fillInStackTrace());
+            }
         }
     }
 }
